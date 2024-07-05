@@ -1,0 +1,136 @@
+body {
+    font-family: 'Comic Sans MS', 'Arial', sans-serif; /* Update the font here */
+    background-color: #e6e6fa; /* Lavender background */
+    color: #4b0082; /* Darker lavender text */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: rgba(75, 0, 130, 0.9); /* Dark lavender with some opacity */
+    color: #e6e6fa;
+    padding: 2rem;
+}
+
+header img {
+    width: 200px; /* Increase the size of the image */
+    border-radius: 50%;
+    border: 4px solid #dda0dd; /* Light lavender */
+    transition: all 0.3s ease-in-out; /* Smooth transition for the hover effect */
+}
+
+header img:hover {
+    box-shadow: 0 4px 15px rgba(75, 0, 130, 0.5); /* Shadow effect on hover */
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
+}
+
+nav {
+    background-color: rgba(138, 43, 226, 0.9); /* Medium lavender with some opacity */
+    color: #e6e6fa;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #e6e6fa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8); /* Light background with some opacity */
+    color: #4b0082; /* Dark lavender text */
+}
+
+.section-about {
+    background-color: rgba(255, 240, 245, 0.8); /* Light lavender with some opacity */
+}
+
+.section-projects {
+    background-color: rgba(230, 230, 250, 0.8); /* Lavender with some opacity */
+}
+
+.section-work-experience {
+    background-color: rgba(221, 160, 221, 0.8); /* Medium lavender with some opacity */
+}
+
+.section-contact {
+    background-color: rgba(186, 85, 211, 0.8); /* Darker lavender with some opacity */
+}
+
+.section-socials {
+    background-color: rgba(230, 230, 250, 0.8); /* Lavender with some opacity */
+}
+
+h2 {
+    border-bottom: 2px solid #dda0dd; /* Light lavender border */
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.social-link {
+    color: #4b0082; /* Dark lavender text */
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-link:hover {
+    color: #ba55d3; /* Darker lavender on hover */
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0;
+    color: #4b0082; /* Dark lavender text */
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 2px solid #dda0dd; /* Light lavender border */
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.8); /* Light background with some opacity */
+    color: #4b0082; /* Dark lavender text */
+}
+
+form button {
+    background-color: #dda0dd; /* Light lavender background */
+    color: #4b0082; /* Dark lavender text */
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form button:hover {
+    background-color: #ba55d3; /* Darker lavender on hover */
+}
