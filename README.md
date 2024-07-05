@@ -19,7 +19,7 @@ This repository contains the source code for my personal portfolio website. The 
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/portfolio.git
+    git clone https://github.com/sahsan21/portfolio.git
     cd portfolio
     ```
 
